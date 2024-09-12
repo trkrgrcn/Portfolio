@@ -296,6 +296,9 @@
     <Content Include="Content\sidebar-theme\scss\bootstrap\_utilities.scss" />
     <Content Include="Content\sidebar-theme\scss\bootstrap\_variables.scss" />
     <Content Include="Content\sidebar-theme\scss\style.scss" />
+    <Content Include="Views\Admin\PartialHead.cshtml" />
+    <Content Include="Views\Admin\PartialSidebar.cshtml" />
+    <Content Include="Views\Admin\PartialNavbar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
