@@ -1,0 +1,16 @@
+﻿@model Portfolio.Models.Message
+@{
+    ViewBag.Title = "MessageDetails";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<h2>Mesaj Detay</h2>
+
+
+<b>Mesaj Gönderen</b><br /> @Html.DisplayFor(x=>x.Name)<br /><br />
+<b>EMail</b><br /> @Html.DisplayFor(x=>x.Email)<br /><br />
+<b>Mesaj Başlık</b><br /> @Html.DisplayFor(x=>x.Subject)<br /><br />
+<b>Mesaj İçerik</b><br /> @Html.DisplayFor(x=>x.MessageDetail)<br /><br />
+
+
+
